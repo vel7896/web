@@ -34,8 +34,7 @@ body{
     font-size:3rem;
     text-align: center;
     color:rgb(0, 0, 0);
-    font-family: 'Merienda', cursive;
-    animation-name:glow;
+    font-family: 'Times New Roman', Times, serif;    animation-name:glow;
     animation-duration:0.85s;
     animation-iteration-count:infinite;
     animation-direction:alternate;
