@@ -42,7 +42,8 @@
      font-size: 2rem;
      color: black;
     
-    
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
     margin-left: auto;
     margin-right: auto;
     font-family:cursive;
