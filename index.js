@@ -9,7 +9,7 @@ function checkLogin() {
     return false;
   }
       
- else if(userID == "vel" && password == "00") {
+ else if(userID == "Vel" && password == "00") {
     window.location.href = "vel/welcome.html";
     alert("Login successful!");
     return true;
