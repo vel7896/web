@@ -18,54 +18,45 @@ function checkLogin() {
     window.location.href ="Prashanth/welcome.html";
     alert("Login successful!");  
     return true;
-  }/*
+  }
   else if(userID == "Rakshith" && password == "31770") {
-    window.location.href ="/API/r/wellcom...html";
+    window.location.href ="Rakshith/welcome.html";
     alert("Login successful!");  
     return true;
   }
 
   else if(userID == "Lokesh War" && password == "98352") {
-    window.location.href ="/API/l/wellcom...html";
+    window.location.href ="Lokesh War/welcome.html";
     alert("Login successful!");  
     return true;
   }
 
   else if(userID == "Rahul" && password == "89002") {
-    window.location.href ="/API/ra/wellcom...html";
+    window.location.href ="Rahul/welcome.html";
     alert("Login successful!");  
     return true;
   }
 
   else if(userID == "Srivan" && password == "21967") {
-    window.location.href ="/API/s/wellcom...html";
+    window.location.href ="Srivan/welcome.html";
     alert("Login successful!");  
     return true;
   }
 
   else if(userID == "Suriya" && password == "62565") {
-    window.location.href ="/API/sa/wellcom...html";
+    window.location.href ="Suriya/welcome.html";
     alert("Login successful!");  
     return true;
   }
   else if(userID == "Barath" && password == "22265") {
-    window.location.href ="/API/b/wellcom...html";
+    window.location.href ="Barath/welcome.html";
     alert("Login successful!");  
     return true;
   }
 
-  else if(userID == "Barath" && password == "22265") {
-    window.location.href ="/API/b/wellcom...html";
-    alert("Login successful!");  
-    return true;
-  }
+ 
 
-  else if(userID == "Sunil vishwa" && password == "09535") {
-    window.location.href ="/API/i/wellcom...html";
-    alert("Login successful!");  
-    return true;
-  }
-*/
+
   
   else {
     alert("Invalid User ID or Password. Please try again.");
