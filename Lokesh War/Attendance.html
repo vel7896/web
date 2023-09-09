@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Attendance.css">
+    <title>Attendance</title>
+</head>
+<body class="container">
+  
+ 
+ 
+
+
+  <p class="p1"> Attendance</p>
+</div>
+<div class="glow">
+<div class="a">
+
+    <div id="counter">
+      <h1 id="loader"></h1>
+    
+    </div>
+    
+</div>
+<br>
+    <center>
+<div class="c">
+  <p class="num">Number of days<br>5</p>
+  <p class="ab">Absent <br></p>
+    <p class="q">---</p>
+  
+  <p class="pre">Present <br>
+    <p class="w"><b>5</b> </p>  
+</div>
+        </center>
+<br>
+
+<a href="welcome.html"><button class="b2">Back</button></a>
+
+</div>
+    
+    <script>
+    let countDown = document.getElementById("loader");
+    let load = 0;
+    let loading = setInterval(function () {
+      load = load + Math.floor(Math.random() * 5);
+      if (load < 100) {
+        countDown.textContent = load + "%";
+      } else {
+        load = 100;
+        countDown.textContent = 100 + "%";
+      }
+    }, 100);
+    
+    
+    </script>
+    
+    
+</body>
+</html>
