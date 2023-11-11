@@ -19,30 +19,14 @@ function checkLogin() {
     alert("Login successful!");  
     return true;
   }
-  else if(userID == "Rakshith" && password == "31770") {
-    window.location.href ="Rakshith/welcome.html";
-    alert("Login successful!");  
-    return true;
-  }
-
+ 
   else if(userID == "Lokesh War" && password == "98352") {
     window.location.href ="Lokesh War/welcome.html";
     alert("Login successful!");  
     return true;
   }
 
-  else if(userID == "Rahul" && password == "89002") {
-    window.location.href ="Rahul/welcome.html";
-    alert("Login successful!");  
-    return true;
-  }
-
-  else if(userID == "Srivan" && password == "21967") {
-    window.location.href ="Srivan/welcome.html";
-    alert("Login successful!");  
-    return true;
-  }
-
+ 
   else if(userID == "Suriya" && password == "62565") {
     window.location.href ="Suriya/welcome.html";
     alert("Login successful!");  
